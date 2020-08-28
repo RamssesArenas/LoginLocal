@@ -1,0 +1,30 @@
+.errorStyle{
+        border: none;
+        color: #D35584;
+        background-color: #BA3D67;
+        border-radius: 4px;
+        font-size: 14px;
+        width: 200px;
+        height: 40px;
+        font-weight: bold;
+}
+
+.regularStyle{
+        margin: 5px;
+        border: none;
+        color: #332C62;
+        background-color: #B7ADC5;
+        border-radius: 4px;
+        font-size: 14px;
+        text-align: center;
+        width: 200px;
+        height: 40px;
+        font-weight: bold;
+}
+
+.regularStyle::placeholder{
+        color: #332C62;
+        opacity: .8;
+        font-size: 14px;
+        font-weight: bold;
+}

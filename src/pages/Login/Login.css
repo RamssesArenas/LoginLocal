@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.loginContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+
+.loginRight{
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+.loginLeft{
+    width: 50vw;
+    height: 100vh;
+    background-color: #4B4374 ;
+}
+
+.loginContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10vh 12vw 10vh 12vw;
+    height: 80vh;
+    background-color: #332C62  ;
+    border-radius: 5%;
+    
+}
+
+
+.botonIngresar {
+    margin: 20px;
+	background-color:#6797c4;
+	border-radius:4px;
+    border: none;
+    width: 204px;
+    height: 40px;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff ;
+}
+
+.botonIngresar:hover{
+    background-color:#4478a8;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+.labelError{
+    color: #B23460;
+}
+
+.label-alert{
+    color: #B23460;
+}
+
+.BackgroundImage{
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+
+}
